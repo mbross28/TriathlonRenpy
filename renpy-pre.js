@@ -372,7 +372,7 @@ Module.preRun = Module.preRun || [ ];
 
             let reader = await response.body.getReader();
 
-            let f = FS.open('/game.zip', 'w');
+            let f = FS.open('game.zip', 'w');
 
             while (true) {
 
